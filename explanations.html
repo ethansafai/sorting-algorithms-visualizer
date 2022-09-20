@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorting Algorithms Explained</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div id="home-link">Back to <a href="index.html">home</a></div>
+      <article>
+        <h4>Selection Sort, O(n<sup>2</sup>)</h4>
+        <p>
+          The selection sort algorithm works by repeatedly searching for the
+          smallest element in the array and putting it at the beginning (then
+          moving on to the next subarray). Code:
+        </p>
+        <img src="images/selection-sort.png" alt="selection sort code" />
+      </article>
+      <article>
+        <h4>Merge Sort, O(n * log(n))</h4>
+        <p>
+          The merge sort algorithm takes an array and recursively divides it
+          into havles until the halves cannot be broken down any further. Then,
+          the created halves get merged together in a sorted manner and you
+          eventually end up with the original array being sorted. (note: this
+          algorithm uses O(n) space)
+        </p>
+        <img src="images/merge-sort.png" alt="merge sort code" />
+      </article>
+      <article>
+        <h4>
+          Quick Sort, O(n<sup>2</sup>) (but is usually closer to O(n * log(n))
+        </h4>
+        <p>
+          Quick sort takes in an array and chooses a pivot element (in this
+          example, the pivot is chosen using a random index in the array range).
+          Then, all of the elements less than the pivot get placed on the left
+          side and the rest on the right side of the pivot. Then, quick sort is
+          recursively called on the two sides until they cannot be divided any
+          further.
+        </p>
+        <img src="images/quick-sort.png" alt="quick sort code" />
+      </article>
+      <article>
+        <h4>Bubble Sort, O(n<sup>2</sup>)</h4>
+        <p>
+          Bogo sort is probably the only algorithm that is more naive than this
+          one. Bubble sort works by repeatedly traversing the array and swapping
+          predecessor elements with their successor if the predecessor is larger
+          until the array is sorted. So, the larger elements 'bubble' up.
+        </p>
+        <img src="images/bubble-sort.png" alt="bubble sort code" />
+      </article>
+    </main>
+  </body>
+</html>
