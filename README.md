@@ -1,1 +1,1 @@
-A visualizer for the selection sort, quick sort, merge sort, and bubble sort algorithms built with HTML + CSS + JavaScript. Also includes an explanations page with source code images. Video demo of the sorting algorthims visualizer: https://youtu.be/JndTgK_P1nY
+A visualizer for the selection sort, quick sort, merge sort, and bubble sort algorithms built with HTML + CSS + JavaScript. Also includes an explanations page with source code images. Video demo of the sorting algorithms visualizer: https://youtu.be/JndTgK_P1nY
